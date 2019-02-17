@@ -1,0 +1,12 @@
+#container {
+	width:450px; 
+	height:700px; 
+	margin: 0 auto;
+	background:url("gradient.png");
+	background-size:460px 700px;
+
+}
+
+body{
+
+}
