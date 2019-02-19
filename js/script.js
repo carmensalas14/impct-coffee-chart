@@ -2,31 +2,31 @@ $(function() {
   if (!Highcharts.theme) {
     Highcharts.setOptions({
       chart: {
-        borderWidth: 1,
+        borderWidth: 0,
         backgroundColor: 'none',
         borderColor: '#dadada',
-        //spacingRight: -50,
-        //spacingLeft: -50
-        //height:240,
-        //width:250
+        // spacingRight: -50,
+        // spacingLeft: -50
+        height:800,
+        width:450
       },
       //colors: ['#f48627', '#359b64', '#e5c100']
     });
   }
   // 
 
-  Highcharts.chart('container', {
+  Highcharts.chart('chartContainer', {
     chart: {
       type: 'solidgauge',
-      marginTop: 10,
-      marginBottom: 38,
-      //marginRight: -15,
-      //marginLeft: -15,
-      //width:250
+      marginTop: 400,
+      marginBottom: 100,
+      // marginRight: -15,
+      // marginLeft: -15,
+      // width:250
     },
 
     title: {
-      text: 'This Is Coffee For The Future',
+      text: 'LOCAL PRODUCTS BUILDING LOCAL EDUCATION THIS IS COFFEE FOR THE FUTURE',
       style: {
         fontSize: '20px',
         color: 'black'
@@ -39,6 +39,12 @@ $(function() {
       x: 0,
       y: 300
     },
+    subtitle: {
+      text: '<div style="text-align:center"><p style="float:left;width:100%;"><span style="font-size:16px; color:#b0498d;"> step 1 </span><br /><span style="font-size:16px; color:#8e87ee"> step 2</span></p></div>',
+      x: 0,
+      y: 300
+    },
+    
 
 
     pane: {
