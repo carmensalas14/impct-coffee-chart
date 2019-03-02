@@ -1,4 +1,8 @@
-$(function() {
+/*global$*/
+/*global Highcharts*/
+$(document).ready(function() {
+
+
   if (!Highcharts.theme) {
     Highcharts.setOptions({
       chart: {
@@ -7,13 +11,13 @@ $(function() {
         borderColor: '#dadada',
         // spacingRight: -50,
         // spacingLeft: -50
-        height:800,
-        width:450
+        // height:800,
+        // width:450
       },
       //colors: ['#f48627', '#359b64', '#e5c100']
     });
   }
-  // 
+  
 
   Highcharts.chart('chartContainer', {
     chart: {
@@ -25,25 +29,25 @@ $(function() {
       // width:250
     },
 
-    title: {
-      text: 'LOCAL PRODUCTS BUILDING LOCAL EDUCATION THIS IS COFFEE FOR THE FUTURE',
-      style: {
-        fontSize: '20px',
-        color: 'black'
-      },
-      x: 0,
-      y: 60
-    },
-    subtitle: {
-      text: '<div style="text-align:center"><p style="float:left;width:100%;"><span style="font-size:16px; color:#b0498d;"> 4,000 lbs of Coffee </span><br /><span style="font-size:16px; color:#8e87ee"> Goal of $10,000</span></p></div>',
-      x: 0,
-      y: 300
-    },
-    subtitle: {
-      text: '<div style="text-align:center"><p style="float:left;width:100%;"><span style="font-size:16px; color:#b0498d;"> step 1 </span><br /><span style="font-size:16px; color:#8e87ee"> step 2</span></p></div>',
-      x: 0,
-      y: 300
-    },
+    // title: {
+    //   text: 'LOCAL PRODUCTS BUILDING LOCAL EDUCATION THIS IS COFFEE FOR THE FUTURE',
+    //   style: {
+    //     fontSize: '20px',
+    //     color: 'black'
+    //   },
+    //   x: 0,
+    //   y: 60
+    // },
+    // subtitle: {
+    //   text: '<div style="text-align:center"><p style="float:left;width:100%;"><span style="font-size:16px; color:#b0498d;"> 4,000 lbs of Coffee </span><br /><span style="font-size:16px; color:#8e87ee"> Goal of $10,000</span></p></div>',
+    //   x: 0,
+    //   y: 300
+    // },
+    // subtitle: {
+    //   text: '<div style="text-align:center"><p style="float:left;width:100%;"><span style="font-size:16px; color:#b0498d;"> step 1 </span><br /><span style="font-size:16px; color:#8e87ee"> step 2</span></p></div>',
+    //   x: 0,
+    //   y: 300
+    // },
     
 
 

@@ -1,14 +1,11 @@
+#container{
+    height:200px;
+}
 #chartContainer{
-	width:450px; 
-	height:700px; 
 	text-align:center;
 	 display: block;
   margin-left: auto;
   margin-right: auto;
  	background:url("playground-background.png");
-	background-size:500px 700px;
-}
-body{
 	
-
 }
