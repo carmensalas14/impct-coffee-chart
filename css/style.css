@@ -1,18 +1,23 @@
 #container{
-    background-image: url('impct-playground-background.png');
+    background-image: url('playground-background.png');
     background-size:cover;
-    border-image-repeat:stretch;
     border-image-slice:100%;
     border-image-width:.5;
     background-repeat: no-repeat;
-    background-position: center;
-  /*background-size: contain;*/
-    padding: 3rem;
+    background-position: bottom center;
+    height:1040px;
+    padding-top: 50px;
     position: relative;
     margin: 0 0 1rem 0;
     border-radius: 0;
     background-color: #3BE5EE;
 
+}
+#impctLogoHeader{
+    text-align:center;
+    height:40px;
+    display: block;
+    margin: 0 auto;
 }
 
 #chartContianer{
@@ -45,13 +50,14 @@
     display:block;
     font-family:"Montserrat", Helvetica sans-serif;
     color: #fff;
-    font-size:22.4px;
+    font-size:33px;
     font-style:normal;
     font-weight:800;
     height:22px;
     letter-spacing:-1.2096px;
     line-height:25px;
     text-align:center;
+    padding-top:30px;
     
  
 
@@ -68,12 +74,13 @@
      display:block;
     font-family:"Montserrat", Helvetica sans-serif;
     color: #fff;
-    font-size:22.4px;
+    text-shadow:1px 1px 1px #666;
+    font-size:26.4px;
     font-style:normal;
     font-weight:800;
     height:22px;
     letter-spacing:-1.2096px;
-    line-height:22px;
+    line-height:24px;
     text-align:center;
  
 }
