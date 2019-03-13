@@ -28,9 +28,9 @@
 
 .purple-title{
     display:block;
-    color: #c6c;
+    color: #fff;
     font-family:"Montserrat", Helvetica sans-serif;
-    font-size:22.4px;
+    font-size:25px;
     font-style:normal;
     font-weight:800;
     height:22px;
@@ -50,11 +50,11 @@
     display:block;
     font-family:"Montserrat", Helvetica sans-serif;
     color: #fff;
-    font-size:33px;
+    font-size:35px;
     font-style:normal;
-    font-weight:800;
+    font-weight:900;
     height:22px;
-    letter-spacing:-1.2096px;
+    letter-spacing:-.5px;
     line-height:25px;
     text-align:center;
     padding-top:30px;
@@ -79,7 +79,7 @@
     font-style:normal;
     font-weight:800;
     height:22px;
-    letter-spacing:-1.2096px;
+    letter-spacing:-1.096px;
     line-height:24px;
     text-align:center;
  

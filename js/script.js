@@ -8,7 +8,7 @@ $(function () {
         chart: {
             backgroundColor: null
         },
-        colors: ['#a25ea5', '#a8d15c', '#80f6fc'],
+        colors: ['#FE6464', '#864AFE', '#80f6fc'],
     
     });
   
@@ -29,9 +29,9 @@ $(function () {
         },
         
         subtitle: {
-          text: '<div style="text-align:center"><p style="float:left;width:100%;"><span style="font-size:16px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#915591">344 lbs of coffee </span><br><span style="font-size:16px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#915591">consumed</span><br><br><br><span style="font-size:16px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#799929"> 206.4 hours of </span><br><span style="font-size:16px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#799929">education created</span></p></div>',
+          text: '<div style="text-align:center"><p style="float:left;width:100%;"><span style="font-size:15.5px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#EC5151">344 lbs of coffee </span><br><span style="font-size:15.5px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#EC5151">consumed</span><br><br><br><span style="font-size:16px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#9A32DF"> 206.4 hours of </span><br><span style="font-size:15px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#9A32DF">education created</span><br><span style="font-size:16px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#9A32DF">GOAL</span><br><span style="font-size:15.5px; font-weight:800; font-family:Montserrat, Helvetica sans-serif; color:#9A32DF">of 10,000 hours</span></p></div>',
           x: 0,
-          y: 170
+          y: 165
         },
         credits: {
         enabled: false
@@ -44,12 +44,12 @@ $(function () {
             background: [{ // Track for purple hours
                 outerRadius: '112%',
                 innerRadius: '88%',
-                backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.7).get(),
+                backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
                 borderWidth: 0
             }, { // Track for green coffee 
                 outerRadius: '87%',
                 innerRadius: '63%',
-                backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[1]).setOpacity(0.6).get(),
+                backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[1]).setOpacity(0.5).get(),
                 borderWidth: 0
             },
              { // Center of chart background color
@@ -64,7 +64,7 @@ $(function () {
 
         yAxis: {
             min: 0,
-            max: 4000,
+            max: 10000,
             lineWidth: 0,
             tickPositions: []
         },
