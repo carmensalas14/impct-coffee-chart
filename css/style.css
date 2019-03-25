@@ -1,0 +1,86 @@
+#container{
+    background-image: url('imcpt-playground.png');
+    background-size:cover;
+    border-image-slice:100%;
+    border-image-width:.5;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height:1040px;
+    padding-top: 50px;
+    position: relative;
+    margin: 0 0 1rem 0;
+    border-radius: 0;
+    background-color: #3BE5EE;
+}
+#impctLogoHeader{
+    text-align:center;
+    height:50px;
+    display: block;
+    margin: 0 auto;
+}
+
+#chartContianer{
+    height:250px;
+    width:250px;
+}
+
+
+.purple-title{
+    display:block;
+    color: #fff;
+    font-family:"Montserrat", Helvetica sans-serif;
+    font-size:25px;
+    font-style:normal;
+    font-weight:800;
+    height:22px;
+    letter-spacing:1px;
+    line-height:31.36px;
+    text-align:center;
+    
+    animation-name:fadeInDown;
+    animation-delay:1.8s;
+    animation-duration:0.6s;
+    animation-fill-mode:both;
+    animation-iteration-count:1;
+    
+}
+
+.white-title{
+    display:block;
+    font-family:"Montserrat", Helvetica sans-serif;
+    color: #fff;
+    font-size:35px;
+    font-style:normal;
+    font-weight:900;
+    height:22px;
+    letter-spacing:-.5px;
+    line-height:25px;
+    text-align:center;
+    padding-top:30px;
+    
+ 
+
+    
+    animation-name:fadeInDown;
+    animation-delay:1.8s;
+    animation-duration:0.6s;
+    animation-fill-mode:both;
+    animation-iteration-count:1;
+    
+}
+
+.white-subtitle{
+     display:block;
+    font-family:"Montserrat", Helvetica sans-serif;
+    color: #fff;
+    text-shadow:1px 1px 1px #666;
+    font-size:28.4px;
+    font-style:normal;
+    font-weight:800;
+    height:22px;
+    letter-spacing:-1.096px;
+    line-height:24px;
+    text-align:center;
+ 
+}
+
